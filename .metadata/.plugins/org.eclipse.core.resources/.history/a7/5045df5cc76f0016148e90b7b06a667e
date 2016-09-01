@@ -1,0 +1,9 @@
+package ShaTeamMaster;
+
+
+
+public class ShaTeamMaster {
+
+MongoClient mongoClient = new MongoClient();
+
+}

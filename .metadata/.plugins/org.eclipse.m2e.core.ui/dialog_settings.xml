@@ -1,13 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
 	<section name="org.jboss.tools.project.examples.stacksrequirements">
+		<item value="WildFly 8.x Runtime" key="targetRuntime"/>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="projectNameCombo">
+			<item value="jboss-forge-html5"/>
 		</list>
 		<list key="packageCombo">
+			<item value="org.jboss.tools.example.forge"/>
 		</list>
 		<list key="location">
+			<item value="/Users/juanestebanchaparromachete/Documents/Sha"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -20,10 +36,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="org.jboss.tools.example.forge"/>
 		</list>
 		<list key="groupId">
+			<item value="org.jboss.tools.example.forge"/>
 		</list>
 		<list key="artifactId">
+			<item value="jboss-forge-html5"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
