@@ -20,3 +20,16 @@
 
 !ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-08-25 22:42:00.724
 !MESSAGE Server Startup Succeeded
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-09-01 12:12:13.734
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-09-01 12:12:28.192
+!MESSAGE Module ShaEstudio on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-09-01 12:12:28.358
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-01 16:08:17.112
+!MESSAGE Server processes have been terminated.
