@@ -5,3 +5,6 @@ function goToIndex() {
 function goToIndexFromHtml() {
     window.location.href="/index.html";
 }
+function goBack() {
+    window.history.back();
+}

@@ -88,3 +88,26 @@ footer {
 }
 
 
+
+
+
+
+
+.productoContainer {
+    height: 80%;
+    padding-top: 10%;
+    width: 100%;
+}
+
+.producto {
+    height: 100%;
+    width: 100%;
+}
+
+.rowBotonVolver {
+    text-align: center;
+}
+
+.padEx {
+    padding-top: 10%;
+}
