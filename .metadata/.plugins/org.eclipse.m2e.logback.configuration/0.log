@@ -2320,3 +2320,266 @@ java.lang.NullPointerException: null
 2016-09-02 20:47:58,544 [Worker-88] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
 2016-09-02 20:48:40,503 [Worker-80] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb
 2016-09-02 20:48:40,504 [Worker-80] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2016-09-02 20:50:09,640 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-02 20:50:09,640 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-02 20:50:09,641 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-02 20:50:09,641 [Worker-83] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 14:24:08,625 [Worker-170] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb
+2016-09-07 14:24:08,717 [Worker-170] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2016-09-07 14:25:47,486 [Worker-172] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.jechaparro:ShaEstudioWeb:0.0.1-SNAPSHOT @ /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/pom.xml.
+2016-09-07 14:25:49,879 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 14:25:49,879 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 14:25:49,883 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 14:25:49,883 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 14:26:42,361 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 14:26:42,362 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 14:26:42,364 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 14:26:42,364 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 14:27:03,812 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 14:27:03,812 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 14:27:03,813 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 14:27:03,814 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 14:28:36,070 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 14:28:36,070 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 14:28:36,072 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 14:28:36,072 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 14:28:47,656 [Worker-170] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb
+2016-09-07 14:28:47,656 [Worker-170] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2016-09-07 14:29:32,580 [Worker-174] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.jechaparro:ShaEstudioWeb:0.0.1-SNAPSHOT @ /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/pom.xml.
+2016-09-07 14:29:33,721 [Worker-174] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mongodb/morphia/morphia/1.2.1/morphia-1.2.1.pom
+2016-09-07 14:29:33,825 [Worker-174] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mongodb/morphia/morphia/1.2.1/morphia-1.2.1.pom
+2016-09-07 14:29:33,966 [Worker-174] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2.pom
+2016-09-07 14:29:34,096 [Worker-174] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2.pom
+2016-09-07 14:29:34,177 [Worker-174] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.pom
+2016-09-07 14:29:34,257 [Worker-174] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.pom
+2016-09-07 14:29:34,354 [Worker-174] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/thoughtworks/proxytoys/proxytoys/1.0/proxytoys-1.0.pom
+2016-09-07 14:29:34,444 [Worker-174] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/thoughtworks/proxytoys/proxytoys/1.0/proxytoys-1.0.pom
+2016-09-07 14:29:34,523 [Worker-174] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/thoughtworks/proxytoys/proxytoys-parent/1.0/proxytoys-parent-1.0.pom
+2016-09-07 14:29:34,604 [Worker-174] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/thoughtworks/proxytoys/proxytoys-parent/1.0/proxytoys-parent-1.0.pom
+2016-09-07 14:29:34,793 [Worker-174] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mongodb/morphia/morphia/1.2.1/morphia-1.2.1.jar
+2016-09-07 14:29:35,186 [Worker-174] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mongodb/morphia/morphia/1.2.1/morphia-1.2.1.jar
+2016-09-07 14:29:35,271 [Worker-174] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2.jar
+2016-09-07 14:29:40,011 [Worker-174] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mongodb/mongo-java-driver/3.2.2/mongo-java-driver-3.2.2.jar
+2016-09-07 14:29:40,144 [Worker-174] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.jar
+2016-09-07 14:29:40,406 [Worker-174] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/cglib/cglib-nodep/2.2.2/cglib-nodep-2.2.2.jar
+2016-09-07 14:29:40,488 [Worker-174] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/thoughtworks/proxytoys/proxytoys/1.0/proxytoys-1.0.jar
+2016-09-07 14:29:40,579 [Worker-174] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/thoughtworks/proxytoys/proxytoys/1.0/proxytoys-1.0.jar
+2016-09-07 14:29:41,146 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 14:29:41,146 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 14:29:41,148 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 14:29:41,148 [Worker-174] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 14:29:41,694 [Worker-172] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb
+2016-09-07 14:29:41,694 [Worker-172] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2016-09-07 14:29:43,569 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 14:29:43,570 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 14:29:43,572 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 14:29:43,572 [Worker-160] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 14:33:01,122 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 14:33:01,122 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 14:33:01,123 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 14:33:01,124 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 15:01:32,732 [Worker-188] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 15:01:32,733 [Worker-188] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 15:01:32,734 [Worker-188] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 15:01:32,735 [Worker-188] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 15:06:47,845 [Worker-191] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 15:06:47,845 [Worker-191] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 15:06:47,847 [Worker-191] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 15:06:47,847 [Worker-191] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 16:52:06,400 [Worker-199] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 16:52:06,401 [Worker-199] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 16:52:06,402 [Worker-199] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 16:52:06,402 [Worker-199] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 16:57:46,153 [Worker-199] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 16:57:46,153 [Worker-199] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 16:57:46,155 [Worker-199] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 16:57:46,155 [Worker-199] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 16:59:42,061 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 16:59:42,062 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 16:59:42,064 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 16:59:42,064 [Worker-203] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 17:11:11,650 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 17:11:11,651 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 17:11:11,652 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 17:11:11,653 [Worker-210] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 17:14:46,210 [Worker-204] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 17:14:46,212 [Worker-204] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 17:14:46,213 [Worker-204] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 17:14:46,214 [Worker-204] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 17:15:15,919 [Worker-204] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 17:15:15,919 [Worker-204] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 17:15:15,921 [Worker-204] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 17:15:15,921 [Worker-204] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 17:44:22,586 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 17:44:22,587 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 17:44:22,588 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 17:44:22,589 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 17:47:07,424 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 17:47:07,424 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 17:47:07,426 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 17:47:07,426 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 17:55:44,742 [Worker-229] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.jechaparro:ShaEstudioWeb:0.0.1-SNAPSHOT @ /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/pom.xml.
+2016-09-07 17:55:45,787 [Worker-229] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/morphia/morphia/1.3.0-SNAPSHOT/maven-metadata.xml
+2016-09-07 17:55:45,898 [Worker-229] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/morphia/morphia/1.3.0-SNAPSHOT/maven-metadata.xml
+2016-09-07 17:55:46,011 [Worker-229] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/morphia/morphia/1.3.0-SNAPSHOT/morphia-1.3.0-20160907.204109-76.pom
+2016-09-07 17:55:46,117 [Worker-229] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/morphia/morphia/1.3.0-SNAPSHOT/morphia-1.3.0-20160907.204109-76.pom
+2016-09-07 17:55:46,313 [Worker-229] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/morphia/morphia/1.3.0-SNAPSHOT/morphia-1.3.0-20160907.204109-76.jar
+2016-09-07 17:55:47,943 [Worker-229] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://oss.sonatype.org/content/repositories/snapshots/org/mongodb/morphia/morphia/1.3.0-SNAPSHOT/morphia-1.3.0-20160907.204109-76.jar
+2016-09-07 17:55:48,413 [Worker-229] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 17:55:48,414 [Worker-229] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 17:55:48,418 [Worker-229] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 17:55:48,418 [Worker-229] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 17:55:50,275 [Worker-230] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 17:55:50,276 [Worker-230] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 17:55:50,277 [Worker-230] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 17:55:50,277 [Worker-230] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 17:55:51,367 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 17:55:51,368 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 17:55:51,369 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 17:55:51,369 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 17:56:01,586 [Worker-229] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb
+2016-09-07 17:56:01,586 [Worker-229] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2016-09-07 17:56:57,059 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 17:56:57,060 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 17:56:57,061 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 17:56:57,061 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 18:01:26,055 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:01:26,055 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 18:01:26,056 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:01:26,057 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 18:03:39,874 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:03:39,875 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 18:03:39,877 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:03:39,877 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 18:05:30,288 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:05:30,289 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 18:05:30,290 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:05:30,290 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 18:05:44,349 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:05:44,349 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 18:05:44,351 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:05:44,351 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 18:06:37,059 [Worker-240] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.jechaparro:ShaEstudioWeb:0.0.1-SNAPSHOT @ /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/pom.xml.
+2016-09-07 18:06:37,647 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:06:37,647 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 18:06:37,650 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:06:37,650 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 18:06:39,478 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:06:39,478 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 18:06:39,479 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:06:39,480 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 18:07:36,538 [Worker-240] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb
+2016-09-07 18:07:36,538 [Worker-240] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B install
+2016-09-07 18:08:12,990 [Worker-234] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.jechaparro:ShaEstudioWeb:0.0.1-SNAPSHOT @ /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/pom.xml.
+2016-09-07 18:08:13,547 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:08:13,547 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 18:08:13,549 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:08:13,549 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 18:08:15,530 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:08:15,531 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 18:08:15,532 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:08:15,532 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 18:08:54,827 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:08:54,827 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 18:08:54,828 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:08:54,829 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 18:10:28,616 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:10:28,617 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 18:10:28,619 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:10:28,619 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 18:10:57,780 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:10:57,781 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 18:10:57,788 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:10:57,792 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 18:11:30,725 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:11:30,725 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 18:11:30,726 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:11:30,727 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 18:11:43,149 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:11:43,149 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 18:11:43,150 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:11:43,151 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 18:11:55,093 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:11:55,093 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 18:11:55,096 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:11:55,096 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 18:12:10,276 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:12:10,276 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 18:12:10,277 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:12:10,277 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 18:12:36,705 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:12:36,706 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 18:12:36,707 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:12:36,708 [Worker-234] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 18:12:46,704 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:12:46,705 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 18:12:46,706 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:12:46,706 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 18:13:07,436 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:13:07,436 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 18:13:07,437 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:13:07,437 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 18:13:54,330 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:13:54,330 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 18:13:54,331 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:13:54,331 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 18:15:11,730 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:15:11,730 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 18:15:11,731 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:15:11,731 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 18:17:58,688 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:17:58,688 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 18:17:58,689 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:17:58,689 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 18:19:51,680 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:19:51,681 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 18:19:51,684 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:19:51,684 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 18:20:12,014 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:20:12,014 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 18:20:12,015 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:20:12,015 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 18:21:17,465 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:21:17,465 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 18:21:17,466 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:21:17,466 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 18:21:31,623 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:21:31,623 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 18:21:31,623 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:21:31,624 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 18:25:24,688 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:25:24,688 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 18:25:24,690 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:25:24,690 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 18:26:35,414 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:26:35,415 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 18:26:35,416 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:26:35,416 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 18:53:21,299 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:53:21,300 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 18:53:21,301 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 18:53:21,301 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 19:01:48,899 [Worker-251] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 19:01:48,901 [Worker-251] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 19:01:48,902 [Worker-251] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 19:01:48,903 [Worker-251] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 19:10:52,846 [Worker-251] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 19:10:52,846 [Worker-251] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 19:10:52,848 [Worker-251] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 19:10:52,848 [Worker-251] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 19:11:00,788 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 19:11:00,789 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 19:11:00,793 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 19:11:00,794 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-07 19:11:07,715 [Worker-251] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 19:11:07,716 [Worker-251] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-07 19:11:07,718 [Worker-251] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-07 19:11:07,719 [Worker-251] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-09-10 16:55:28,337 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-10 16:55:28,397 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/main/resources
+2016-09-10 16:55:28,400 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-09-10 16:55:28,400 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/ShaEstudio/ShaEstudioWeb/src/test/resources
+2016-10-04 10:01:21,621 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-04 10:01:21,634 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/captainops-backend/src/main/resources
+2016-10-04 10:01:21,637 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-10-04 10:01:21,637 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/captainops-backend/src/test/resources

@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="javax.swing.ImageIcon"/>
+<fullyQualifiedTypeName name="javax.annotation.security.RolesAllowed"/>
+<fullyQualifiedTypeName name="javax.ws.rs.Path"/>
+<fullyQualifiedTypeName name="javax.ws.rs.PathParam"/>
+<fullyQualifiedTypeName name="javax.ws.rs.POST"/>
+<fullyQualifiedTypeName name="javax.annotation.security.PermitAll"/>
+<fullyQualifiedTypeName name="javax.ws.rs.Consumes"/>
+<fullyQualifiedTypeName name="javax.ws.rs.Produces"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.MediaType"/>
+<fullyQualifiedTypeName name="javax.ws.rs.core.Response"/>
+<fullyQualifiedTypeName name="org.mongodb.morphia.Datastore"/>
+<fullyQualifiedTypeName name="java.net.UnknownHostException"/>
+<fullyQualifiedTypeName name="org.mongodb.morphia.Morphia"/>
+<fullyQualifiedTypeName name="com.mongodb.MongoClient"/>
+<fullyQualifiedTypeName name="Utilities.ManagerDb"/>
+<fullyQualifiedTypeName name="org.mongodb.morphia.annotations.Entity"/>
+<fullyQualifiedTypeName name="org.eclipse.persistence.annotations.Indexes"/>
+<fullyQualifiedTypeName name="org.mongodb.morphia.annotations.Field"/>
+<fullyQualifiedTypeName name="org.mongodb.morphia.annotations.Indexes"/>
+<fullyQualifiedTypeName name="org.mongodb.morphia.annotations.Reference"/>
+<fullyQualifiedTypeName name="org.mongodb.morphia.annotations.Property"/>
+<fullyQualifiedTypeName name="org.mongodb.morphia.annotations.Id"/>
+<fullyQualifiedTypeName name="mundo.User"/>
 <fullyQualifiedTypeName name="java.sql.Date"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="java.awt.geom.Area"/>
+<fullyQualifiedTypeName name="infracomp.Aeropuerto"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="infracomp.Buffer"/>
+<fullyQualifiedTypeName name="infracomp.Servidor"/>
+<fullyQualifiedTypeName name="infracomp.Cliente"/>
 </qualifiedTypeNameHistroy>
