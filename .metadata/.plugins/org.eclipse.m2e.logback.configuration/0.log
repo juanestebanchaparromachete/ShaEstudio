@@ -2583,3 +2583,7 @@ java.lang.NullPointerException: null
 2016-10-04 10:01:21,634 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/captainops-backend/src/main/resources
 2016-10-04 10:01:21,637 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2016-10-04 10:01:21,637 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/captainops-backend/src/test/resources
+2016-11-02 15:42:46,140 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-02 15:42:46,152 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/captainops-backend/src/main/resources
+2016-11-02 15:42:46,156 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-02 15:42:46,156 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/captainops-backend/src/test/resources

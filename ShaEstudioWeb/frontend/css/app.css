@@ -31,6 +31,8 @@ body {
 
 .carousel-holder {
     margin-bottom: 30px;
+  
+        
 }
 
 .carousel-control,
@@ -110,4 +112,17 @@ footer {
 
 .padEx {
     padding-top: 10%;
+}
+
+
+
+.indent {
+    text-indent: 50px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.boderStyle {
+    border-color: black; important! 
+    background-color: aqua;
 }
