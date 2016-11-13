@@ -27,6 +27,9 @@ app.config(function($routeProvider) {
         .when("/loMasVendido", {
         templateUrl : "html/loMasVendido.html",
         controller : "loMasVendidoCtrl"
+    }).when("/usuarios", {
+        templateUrl : "html/usuarios.html",
+        controller : "usuariosCtrl"
     });
 });
 
@@ -41,3 +44,7 @@ function goToIndexFromHtml() {
 function goBack() {
     window.history.back();
 }
+
+
+
+    

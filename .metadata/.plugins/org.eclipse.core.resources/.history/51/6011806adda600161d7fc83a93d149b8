@@ -1,0 +1,375 @@
+import java.io.BufferedReader;
+import java.io.DataOutput;
+import java.io.DataOutputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.math.BigInteger;
+import java.net.Socket;
+import java.nio.charset.StandardCharsets;
+import java.security.InvalidKeyException;
+import java.security.Key;
+import java.security.KeyPair;
+import java.security.KeyPairGenerator;
+import java.security.NoSuchAlgorithmException;
+import java.security.NoSuchProviderException;
+import java.security.PrivateKey;
+import java.security.PublicKey;
+import java.security.SecureRandom;
+import java.security.Security;
+import java.security.SignatureException;
+import java.security.cert.CertificateEncodingException;
+import java.util.Base64;
+import java.util.Date;
+
+import javax.crypto.BadPaddingException;
+import javax.crypto.Cipher;
+import javax.crypto.IllegalBlockSizeException;
+import javax.crypto.KeyGenerator;
+import javax.crypto.NoSuchPaddingException;
+import javax.crypto.SecretKey;
+import javax.crypto.spec.SecretKeySpec;
+import javax.security.auth.x500.X500Principal;
+import javax.security.cert.X509Certificate;
+import javax.xml.stream.events.EndDocument;
+
+import org.bouncycastle.asn1.pkcs.PKCSObjectIdentifiers;
+import org.bouncycastle.asn1.x500.X500Name;
+import org.bouncycastle.asn1.x509.AlgorithmIdentifier;
+import org.bouncycastle.asn1.x509.BasicConstraints;
+import org.bouncycastle.asn1.x509.ExtendedKeyUsage;
+import org.bouncycastle.asn1.x509.GeneralName;
+import org.bouncycastle.asn1.x509.GeneralNames;
+import org.bouncycastle.asn1.x509.KeyPurposeId;
+import org.bouncycastle.asn1.x509.KeyUsage;
+import org.bouncycastle.asn1.x509.SubjectPublicKeyInfo;
+import org.bouncycastle.asn1.x509.X509Extensions;
+import org.bouncycastle.asn1.x509.X509Name;
+import org.bouncycastle.cert.X509CertificateHolder;
+import org.bouncycastle.cert.X509v1CertificateBuilder;
+import org.bouncycastle.cert.X509v3CertificateBuilder;
+import org.bouncycastle.jcajce.provider.asymmetric.dsa.DSASigner.stdDSA;
+import org.bouncycastle.jce.provider.BouncyCastleProvider;
+import org.bouncycastle.operator.ContentSigner;
+import org.bouncycastle.operator.jcajce.JcaContentSignerBuilder;
+import org.bouncycastle.x509.X509V1CertificateGenerator;
+import org.bouncycastle.x509.X509V3CertificateGenerator;
+
+
+public class ClienteConSeguridad {
+
+
+	final protected static char[] hexArray = "0123456789ABCDEF".toCharArray();
+	final String HOST = "localhost";
+	final int PUERTOSINSEGURIDAD=4444;
+	final int PUERTOCONSEGURIDAD=4443;	
+	final String ALGS="DES";
+	final String ALGSP="DES/ECB/PKCS5Padding";
+	final String ALGA="RSA";
+	final String ALGAP="RSA/ECB/PKCS1Padding";
+	final String ALGD="HMACSHA256";
+	private int ok;
+	private Socket sc;
+	private PrintWriter salida;
+	private BufferedReader entrada; 
+	private PrivateKey priv;
+	private PublicKey publ;
+	private PublicKey publServ;
+	private SecretKey ls;
+	private KeyPair keyPair; 
+
+	public ClienteConSeguridad() 
+	{
+		iniciarConexion();
+	}
+
+	public void iniciarConexion() 
+	{
+		try
+		{
+			ok=0;
+			sc = new Socket( HOST , PUERTOCONSEGURIDAD ); 
+			salida = new PrintWriter(sc.getOutputStream(), true);
+			entrada = new BufferedReader(new InputStreamReader(sc.getInputStream()));
+			System.out.println("Confirmando conexion al Servidor....");
+			salida.println("HOLA");
+			escuchar();	
+		}
+		catch(Exception e )
+		{	
+			System.out.println("Error: "+e.getMessage());
+		}
+
+	}
+
+	public void escuchar() throws Exception
+	{
+		try 
+		{
+			
+			String mensaje=entrada.readLine() ;
+			System.out.println("lo que envia el servidor:  "+ mensaje);
+
+			enviaraAlgoritmosDeCifrado();
+			mensaje =entrada.readLine();
+			System.out.println("lo que envia el servidor:  "+ mensaje);
+			if(mensaje=="ERROR")
+				terminarConecion();
+
+			enviarCertificadoCliente();
+			mensaje = entrada.readLine();
+			recibirCertificado(aHexadecimal(mensaje));
+			System.out.println("lo que envia el servidor:  "+ mensaje);
+
+			enviarOk();
+			mensaje =entrada.readLine();
+			recibirCifradokc(aHexadecimal(mensaje));
+			System.out.println("lo que envia el servidor:  "+ mensaje);
+
+//			enviarCifradoKs();
+			mensaje =entrada.readLine();
+			System.out.println("lo que envia el servidor:  "+ mensaje);
+
+//			enviarCifradoLS1();
+			mensaje =entrada.readLine();
+			System.out.println("lo que envia el servidor:  "+ mensaje);
+			recibirCifradoLS2(aHexadecimal(mensaje));
+		} 
+		catch (IOException e) 
+		{
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	private void recibirCertificado(byte [] mensaje) 
+	{
+		try {
+			byte [] args =decriptar(mensaje, ALGA , keyPair.getPrivate());
+			X509CertificateHolder cert = new X509CertificateHolder (args); 
+			System.out.println("certificado  servidor /n"+   cert);
+			
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+	}
+	
+	private byte [] aHexadecimal(String mensaje)
+	{
+		
+		byte[] resp = new byte[mensaje.length()/2];
+		for (int i = 0 ; i < resp.length ; i++) {
+			resp[i] = (byte) Integer.parseInt(mensaje.substring(i*2,(i+1)*2), 16);
+		}
+		return resp;
+		
+	}
+	
+	private String  desdeHexadecimal(byte[] mensaje)
+	{
+		String resp = "";
+		for (int i = 0 ; i < mensaje.length ; i++) {
+			String g = Integer.toHexString(((char)mensaje[i])&0x00ff);
+			resp += (g.length()==1?"0":"") + g;
+		}
+		return resp;
+		
+	}
+	
+	
+
+	private void recibirCifradoLS2(byte [] mensaje) 
+	{	
+		byte [] decifrado;
+		try 
+		{
+			decifrado = decriptar(mensaje, ALGSP, ls);
+			String tm = new String (decifrado);
+			String[] arreglo= tm.split(":");
+
+			String cadena1=arreglo[0];
+			String cadena2=arreglo[1];
+
+			if (cadena1=="ERROR")
+				System.out.println("NO SE HIZO BIEN ");
+
+			System.out.println(arreglo);
+		}
+		catch (Exception e) 
+		{
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	private void recibirCifradokc(byte [] mensaje) 
+	{
+		try 
+		{
+			String strLs = new String (decriptar(mensaje, ALGAP, priv));
+			byte[] decodedKey = Base64.getDecoder().decode(strLs);
+			// rebuild key using SecretKeySpec
+			ls= new SecretKeySpec(decodedKey, 0, decodedKey.length, "AES"); 
+		} 
+		catch (Exception e) 
+		{
+			e.printStackTrace();
+		}
+	}
+
+	private void terminarConecion() 
+	{	
+		try 
+		{
+			sc.close();
+		} 
+		catch (IOException e) 
+		{
+			e.printStackTrace();
+		}
+	}
+
+//	private void enviarCifradoKs() 
+//	{
+//		// get base64 encoded version of the key
+//		String encodedKey = Base64.getEncoder().encodeToString(ls.getEncoded());
+//
+//		try 
+//		{
+//			salida.println(encriptar(encodedKey, ALGAP, publServ));
+//		} 
+//		catch (Exception e) 
+//		{
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//		System.out.println("lo que envia el clinete: CIFRADOKS+ " );
+//	}
+
+	private void enviarOk() throws IOException 
+	{
+		salida.println("OK");
+		System.out.println("lo que envia el cliente: OK ");
+	}
+
+//	private void enviarCifradoLS1() 
+//	{
+//		String consulta = "lo que se les de la puta gana de colocar "; 
+//		String hash = realizarHash(consulta);
+//		try 
+//		{
+//			String cadena2= encriptar(hash, ALGSP, ls);
+//			String cadena1=  encriptar(consulta, ALGSP, ls);
+//
+//			salida.println(cadena1+":"+cadena2);
+//
+//		} catch (Exception e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+//		System.out.println("lo que envia el cliente: CIFRADOLS1 ");
+//	}
+
+	private String realizarHash(String consulta)
+	{
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	private void enviarCertificadoCliente() throws Exception
+	{
+		byte [] cert = generarCertificado();
+		System.out.println("tamaño bites :  "+cert.length);
+		System.out.println("antes");
+		String sr= desdeHexadecimal(encriptar(cert,ALGA,keyPair.getPrivate()));
+		System.out.println(sr);
+		salida.println(sr);
+		System.out.println("envio");
+
+	}
+
+	private void enviaraAlgoritmosDeCifrado() 
+	{
+		salida.println("ALGORITMOS:"+ALGS+":"+ALGA+":"+ALGD);
+		System.out.println("lo que envia el cliente:  ALGORITMOS:"+ALGS+":"+ALGA+":"+ALGD );
+	}	
+
+	public byte[] encriptar( byte [] mensaje, String algoritmo, Key secretkey) throws Exception
+	{
+		// create a cipher based upon Blowfish
+		Cipher cipher = Cipher.getInstance(algoritmo);
+
+		// initialise cipher to with secret key
+		cipher.init(Cipher.ENCRYPT_MODE, secretkey);
+
+		// encrypt message
+		return  cipher.doFinal(mensaje);
+
+
+	}
+
+	public byte[] decriptar(byte[] mensaje, String algoritmo, Key secretkey) throws Exception
+	{
+
+
+
+		// create a cipher based upon Blowfish
+		Cipher cipher = Cipher.getInstance(algoritmo);
+
+		// initialise cipher to with secret key
+		cipher.init(Cipher.DECRYPT_MODE, secretkey);
+
+		// encrypt message
+		return  cipher.doFinal(mensaje);
+
+	}
+
+
+	public byte[] generarCertificado() throws Exception
+	{	
+		Security.addProvider(new BouncyCastleProvider());
+
+		// generate a key pair
+		KeyPairGenerator keyPairGenerator = KeyPairGenerator.getInstance("RSA");
+		keyPairGenerator.initialize(1024, new SecureRandom());
+		keyPair = keyPairGenerator.generateKeyPair();
+
+		// build a certificate generator
+		X509V3CertificateGenerator certGen = new X509V3CertificateGenerator();
+		X500Principal dnName = new X500Principal("CN=Example");
+
+		// add some options
+		certGen.setSerialNumber(BigInteger.valueOf(System.currentTimeMillis()));
+		certGen.setSubjectDN(new X509Name("CN=Exampel"));
+		certGen.setIssuerDN(dnName); // use the same
+		// yesterday
+		certGen.setNotBefore(new Date(System.currentTimeMillis() - 24 * 60 * 60 * 1000));
+		// in 2 years
+		certGen.setNotAfter(new Date(System.currentTimeMillis() + 2 * 365 * 24 * 60 * 60 * 1000));
+		certGen.setPublicKey(keyPair.getPublic());
+		certGen.setSignatureAlgorithm("SHA256WithRSAEncryption");
+
+		certGen.addExtension(X509Extensions.ExtendedKeyUsage, true, new ExtendedKeyUsage(KeyPurposeId.id_kp_serverAuth));
+		certGen.addExtension(X509Extensions.BasicConstraints, true, new BasicConstraints(false));
+		certGen.addExtension(X509Extensions.KeyUsage, true, new KeyUsage(KeyUsage.digitalSignature| KeyUsage.keyEncipherment));
+
+		certGen.addExtension(X509Extensions.SubjectAlternativeName, false, new GeneralNames(
+				new GeneralName(GeneralName.rfc822Name, "Exampel@infracomp201602.exampel")));
+
+		java.security.cert.X509Certificate var = certGen.generate(keyPair.getPrivate(), "BC"); 
+		
+	
+		System.out.println(var);
+		// finally, sign the certificate with the private key of the same KeyPair
+		return var ;
+
+	}
+
+	public static void main(String [ ] args)
+	{
+		ClienteConSeguridad n = new ClienteConSeguridad();
+	}
+}
