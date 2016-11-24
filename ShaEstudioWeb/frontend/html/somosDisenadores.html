@@ -1,0 +1,44 @@
+<div ng-controller="somosDisenadoresCtrl" >
+    
+    <h1>Somos Diseñadores y Fabricantes</h1>
+ 
+    <br>
+    <div class="col-md-3  col-xl-3 col-md-offset-1 disenadores">
+        <h2>Diseñadores</h2>
+        <p>
+        Este es nuestro grupo de diseñadores que nos permiten cumplir cada uno de sus deseos.estos son los mejores y mas especializados.    
+        </p>
+        <br>
+        <ul>
+            <div ng-repeat="disenador in disenadores track by disenador.id ">
+                <li>
+                    <h4><a class="lcd" href="#disenador" ng-click="passObjectDisenador(disenador.id)" >{{ disenador.nombre }}</a>
+            </h4>
+                </li>
+
+
+            </div>
+        </ul>
+    </div>
+    <div class="col-md-3 col-xl-3  col-md-offset-1 ideas">
+            <h2>Ideas</h2>
+            <p>
+              Las mas innovadoras ideas y soluciones para su hogar,estan aqui en nuestros ultimos lanzamientos.  
+            </p>
+            <br>
+            <ul>
+                <div ng-repeat="producto in productos track by producto.id ">
+                    <li>
+                        <h4><a class="lcd" href="#idea" ng-click="passObjectProducto(producto.id)" >{{ producto.nombre }}</a>
+                        </h4>
+                    </li>
+
+
+                </div>
+            </ul>
+
+        </div>
+    
+   
+    
+</div>

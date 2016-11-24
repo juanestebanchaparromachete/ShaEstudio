@@ -22,9 +22,12 @@
     <script src="bin/angular-1.5.8/angular-route.js"></script>
     <script src="js/app.js"></script>
     <!-- Controllers-->
-    <script src="controllers/catalogoCtrl.js"></script>
+    <script src="controllers/catalogo1Ctrl.js"></script>
+    <script src="controllers/catalogo2Ctrl.js"></script>
+    <script src="controllers/catalogo3Ctrl.js"></script>
+    <script src="controllers/catalogoShaCtrl.js"></script>
     <script src="controllers/laEmpresaCtrl.js"></script>
-    <script src="controllers/laIdea.js"></script>
+    <script src="controllers/somosDisenadoresCtrl.js"></script>
     <script src="controllers/loMasVendidoCtrl.js"></script>
     <script src="controllers/mainCtrl.js"></script>
     <script src="controllers/nuestrosAliadosCtrl.js"></script>
@@ -33,6 +36,7 @@
     <!--services-->
 
     <script src="services/shareProduct.js"></script>
+    <script src="services/shareDisenador.js"></script>
     
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -55,11 +59,20 @@
                 <p class="lead"></p>
                 <div class="list-group">
                     <a href="#laEmpresa" class="list-group-item lgi">LA EMPRESA</a>
-                    <a href="#laIdea" class="list-group-item lgi">SOMOS DISEÑADORES</a>
-                    <a href="#nuestrosAliados" class="list-group-item lgi">NUESTROS ALIADOS</a>
+                    <a href="#somosDisenadores" class="list-group-item lgi">SOMOS DISEÑADORES</a>
+                    <a href="#contacto" class="list-group-item lgi">CONTACTO</a>
                     <a href="#loMasVendido" class="list-group-item lgi">LO MÁS VENDIDO</a>
-                    <a href="#catalogos" class="list-group-item lgi">CATALOGO 2016</a>
-                    <a href="#usuarios" class="list-group-item lgi">USUARIOS</a>
+                    <div class="dropdown">
+                        <a class="list-group-item lgi dropdown-toggle"type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">CATALOGOS 2016 </a>
+                    
+                        <ul class="dropdown-menu lgi drop-cualities" aria-labelledby="dropdownMenu1">
+                            <li><a href="#catalogo1"class="list-group-item lgi">Catalogo 1</a></li>
+                            <li><a href="#catalogo2"class="list-group-item lgi">Catalogo 2</a></li>
+                            <li><a href="#catalogo3"class="list-group-item lgi">CAtalogo 3</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#catalogoSha"class="list-group-item lgi "s>Catalogo Sha</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 

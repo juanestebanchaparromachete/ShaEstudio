@@ -16,20 +16,29 @@ app.config(function($routeProvider) {
         templateUrl : "html/laEmpresa.html",
         controller : "laEmpresaCtrl"
     })
-        .when("/laIdea", {
-        templateUrl : "html/laIdea.html",
-        controller : "laIDeaCtrl"
-    })
-        .when("/nuestrosAliados", {
-        templateUrl : "html/nuestrosAliados.html",
-        controller : "nuestrosAliadosCtrl"
-    })
-        .when("/loMasVendido", {
+        .when("/somosDisenadores", {
+        templateUrl : "html/somosDisenadores.html",
+        
+    }) .when("/loMasVendido", {
         templateUrl : "html/loMasVendido.html",
         controller : "loMasVendidoCtrl"
     }).when("/usuarios", {
         templateUrl : "html/usuarios.html",
         controller : "usuariosCtrl"
+    }).when("/catalogo1", {
+        templateUrl : "html/catalogo1.html",
+        controller : "catalogo1Ctrl"
+    }).when("/catalogo2", {
+        templateUrl : "html/catalogo2.html",
+        controller : "catalogo2Ctrl"
+    }).when("/catalogo3", {
+        templateUrl : "html/catalogo3.html",
+        controller : "catalogo3Ctrl"
+    }).when("/catalogoSha", {
+        templateUrl : "html/catalogoSha.html",
+        controller : "catalogoShaCtrl"
+    }).when("/contacto", {
+        templateUrl : "html/contacto.html"
     });
 });
 

@@ -10,7 +10,7 @@ app.controller('mainCtrl', function ($scope) {
     $scope.addSlide = function () {
         var newWidth = 600 + slides.length + 1;
         slides.push({
-            image: ['images/carousel1.jpg','images/carousel2.jpg','images/carousel3.jpg','images/carousel4.jpg'][slides.length % 4],
+            image: ['images/KALAHARY 3.jpg','images/carousel2.jpg','images/carousel3.jpg','images/carousel4.jpg'][slides.length % 4],
             text: ['Nice image', 'Awesome photograph', 'That is so cool', 'I love that'][slides.length % 4],
             id: currIndex++
         });
