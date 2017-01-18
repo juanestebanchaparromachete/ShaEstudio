@@ -1,0 +1,36 @@
+<div ng-controller="somosDisenadoresCtrl">
+    <h1>Diseñador</h1>
+    <div class="lineBlack"></div>
+    <br>
+    <div class="col-xs-12  col-sm-12 col-md-8   ">
+        
+            <span><img class="producto disenadorFoto" ng-src="{{ imagen }}" ></span>
+        
+        </div>
+    </div>
+    <div class="col-xs-12  col-sm-12  col-md-4">
+        <div class="thumbnail ">
+
+            <div class="caption disenadorEIdeas ubicacion">
+                <h3 class="detailsInformacion text-center"> Información</h3>
+                <div class="lineYellow"></div>
+
+                <h5 class="detailsInformacionCuerpo" >Dimensiones:</h5>
+                <h8 class="detailsInformacionContenido" > {{ producto.disenador}}</h8>
+                <h5 class="detailsInformacionCuerpo" >Año creación:</h5>
+                <h8 class="detailsInformacionContenido"> {{ producto.fechaCreacion }}</h8>
+                <h5 class="detailsInformacionCuerpo" >Distribuidores:</h5>
+                <h8 class="detailsInformacionContenido"> {{ producto.distribuidores }}</h8>
+                <h5 class="detailsInformacionCuerpo" >Colores:</h5>
+                <h8 class="detailsInformacionContenido"> {{ producto.colores }}
+                </h8>
+
+
+            </div>
+        </div>
+
+        <div class="text-center btnvolver">
+            <button type="button" class="btn btn-primary " onclick="goBack()">volver</button>
+        </div>
+    </div>
+</div>

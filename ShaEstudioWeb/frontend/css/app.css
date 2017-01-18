@@ -45,7 +45,7 @@ body {
 }
 
 .caption {
-    height: 130px;
+    height: 120px;
     overflow: hidden;
 }
 
@@ -102,7 +102,7 @@ footer {
 
 .productoContainer {
     height: 80%;
-    padding-top: 10%;
+    padding-top: 2%;
     width: 100%;
 }
 
@@ -154,11 +154,128 @@ footer {
 }
 
 .disenadores {
-    width: 40%;
-background-image: url("/images/greybg.jpg");
+border-bottom-color: black;  
+background-color: aliceblue;
 }
 
+
 .ideas {
-  width: 40%;
-background-image: url("/images/greybg2.jpg");  
+border-color: black !important;
+
+background-color:darkturquoise;
+}
+
+
+
+.thumbnail-catalogo {
+    height: 200 px !important ;
+}
+
+
+
+.catalogoProductos {
+ max-width: auto;
+    height: 230xp;
+    border-top: 3px solid black !important;
+    border-bottom: 3px solid black !important;
+    border-left: 3px solid black !important;
+    border-right: 3px solid black !important; 
+    
+}
+
+.catalogoimg {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+.lineBlack {
+    background-color: black !important;
+    height: 2px !important;
+    width: 100% !important;
+}
+
+.disenadorEIdeas {
+    height: 60% !important;
+}
+
+.maintamano {
+    height: 80% !important;
+}
+
+.descripcionProducto {
+    margin-top: 20px;
+     border-left: 1px solid black; 
+    
+     border-right: 1px solid black;
+    
+     border-bottom: 1px solid black;
+    
+     border-top: 1px solid black;
+}
+
+.tituloinformacion {
+  
+    background-color: white;
+}
+
+.cuerpoImformacion {
+ background-color: white;
+    
+}
+
+.detailsInformacion {
+    
+    color: black;
+}
+
+.contenidoInfomacion {
+    margin-left: 30px;
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+.detailsInformacionCuerpo {
+    margin-top: 0;
+    color: black;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.btnvolver {
+    
+    padding-top: 10px;
+}
+
+.detailsInformacionContenido {
+    color: rgb(192,193,190);
+}
+
+.detailsNamesSomosDisenadores {
+    
+    color: rgb(124,125,125);
+}
+
+.lineYellow {
+    background-color: rgb(255,245,0)!important;
+    height: 2px !important;
+    width: 100% !important;
+}
+
+
+
+.ubicacionPanel {
+   padding-top: 30xp; !important
+}
+
+.ubicacion {
+    padding-top: 210;
+}
+
+.disenadorFoto {
+    height: 100%;
+    width: 50%;    
 }

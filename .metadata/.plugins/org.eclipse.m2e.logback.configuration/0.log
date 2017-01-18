@@ -2591,3 +2591,12 @@ java.lang.NullPointerException: null
 2016-11-09 07:42:39,800 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/captainops-backend/src/main/resources
 2016-11-09 07:42:39,803 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2016-11-09 07:42:39,803 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/captainops-backend/src/test/resources
+2016-12-25 23:01:07,034 [Worker-23] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: CaptainOPS:captainops-backend:0.0.1-SNAPSHOT @ /Users/juanestebanchaparromachete/Documents/workspace/captainops-backend/pom.xml.
+2016-12-25 23:01:12,264 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-25 23:01:12,265 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/captainops-backend/src/main/resources
+2016-12-25 23:01:12,267 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-25 23:01:12,268 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/captainops-backend/src/test/resources
+2016-12-25 23:01:14,800 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-25 23:01:14,801 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/captainops-backend/src/main/resources
+2016-12-25 23:01:14,803 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-12-25 23:01:14,803 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/juanestebanchaparromachete/Documents/workspace/captainops-backend/src/test/resources

@@ -1,32 +1,40 @@
 <div ng-controller="productoCtrl">
-    <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-0  ">
-        <h1> {{ producto.nombre }} </h1>
-        <div class="productoContainer">
-            <span><img class="producto" ng-src="{{ producto.imagen }}" ></span>
+    <h1>Producto</h1>
+    <div class="lineBlack"></div>
+    <br>
+    <div class="col-xs-12  col-sm-12 col-md-8   ">
+        <h2> {{ producto.nombre }} </h2>
+        <div ng-repeat="imagen in images.slice(((bigCurrentPage-1)*itemsPerPage), ((bigCurrentPage)*itemsPerPage))" class="productoContainer">
+            <span><img class="producto" ng-src="{{ imagen }}" ></span>
         </div>
-        <p class="lead"></p>
+        <h5 class="detailsInformacionCuerpo" >Diseñador: <h8 class="detailsInformacionContenido" > {{ producto.disenador}}</h8></h5>
+        <div class="text-center col-sm-12">
+            <ul uib-pagination total-items="bigTotalItems" ng-model="bigCurrentPage" class="pagination-sm" boundary-links-numbers="true" num-rotate="true" items-per-page="1" max-size="3" next-text=">" previous-text="<"></ul>
+        </div>
     </div>
-    <div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 col-md-4 col-md-offset-0  ">
+    <div class="col-xs-12  col-sm-12  col-md-4">
+        <div class="thumbnail ">
 
-        <div class="row">
-            <p class="lead"></p>
-            <h4>Descripción: {{ producto.id }}</h4>
-            <p class="lead"></p>
-            <h9 class="pdescrip">{{ producto.descripcion }}</h9>
-            <p class="lead"></p>
+            <div class="caption disenadorEIdeas ubicacion">
+                <h3 class="detailsInformacion text-center"> Información</h3>
+                <div class="lineYellow"></div>
+                
+                <h5 class="detailsInformacionCuerpo" >Dimensiones:</h5>
+                <h8 class="detailsInformacionContenido" > {{ producto.disenador}}</h8>
+                <h5 class="detailsInformacionCuerpo" >Año creación:</h5>
+                <h8 class="detailsInformacionContenido"> {{ producto.fechaCreacion }}</h8>
+                <h5 class="detailsInformacionCuerpo" >Distribuidores:</h5>
+                <h8 class="detailsInformacionContenido"> {{ producto.distribuidores }}</h8>
+                <h5 class="detailsInformacionCuerpo" >Colores:</h5>
+                <h8 class="detailsInformacionContenido"> {{ producto.colores }}
+                </h8>
+                
+                
+            </div>
         </div>
-        <div class="row">
-            <p class="lead"></p>
-            <h4>Distribuidores:</h4>
-            <p class="lead"></p>
-            <h9>donde comprar 1....</h9>
-            <p class="lead"></p>
-            <h9>donde comprar 2....</h9>
-            <p class="lead"></p>
-            <h9>donde comprar 3....</h9>
-        </div>
-        <div class="row rowBotonVolver">
-            <h3 onclick="goBack()" class="padEx">Volver</h3>
+      
+        <div class="text-center btnvolver">
+        <button type="button" class="btn btn-primary " onclick="goBack()">volver</button>
         </div>
     </div>
 </div>

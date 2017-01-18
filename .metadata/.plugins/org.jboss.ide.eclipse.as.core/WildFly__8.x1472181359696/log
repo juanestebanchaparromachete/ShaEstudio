@@ -40,3 +40,16 @@
 
 !ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2016-09-12 10:42:29.756
 !MESSAGE Server processes have been terminated.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2016-12-16 12:07:34.493
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2016-12-16 12:07:58.196
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-12-16 12:07:59.091
+!MESSAGE Module PuertoAndes on WildFly  8.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2016-12-16 12:23:06.449
+!MESSAGE Module ProdAndes2 on WildFly  8.x not yet fully deployed. Waiting...

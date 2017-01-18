@@ -1,43 +1,53 @@
 <div ng-controller="somosDisenadoresCtrl" >
     
     <h1>Somos Diseñadores y Fabricantes</h1>
- 
+    <div class="lineBlack"></div>
     <br>
-    <div class="col-md-3  col-xl-3 col-md-offset-1 disenadores">
-        <h2>Diseñadores</h2>
-        <p>
-        Este es nuestro grupo de diseñadores que nos permiten cumplir cada uno de sus deseos.estos son los mejores y mas especializados.    
-        </p>
-        <br>
-        <ul>
-            <div ng-repeat="disenador in disenadores track by disenador.id ">
-                <li>
-                    <h4><a class="lcd" href="#disenador" ng-click="passObjectDisenador(disenador.id)" >{{ disenador.nombre }}</a>
-            </h4>
-                </li>
-
-
-            </div>
-        </ul>
-    </div>
-    <div class="col-md-3 col-xl-3  col-md-offset-1 ideas">
-            <h2>Ideas</h2>
-            <p>
-              Las mas innovadoras ideas y soluciones para su hogar,estan aqui en nuestros ultimos lanzamientos.  
-            </p>
-            <br>
-            <ul>
-                <div ng-repeat="producto in productos track by producto.id ">
-                    <li>
-                        <h4><a class="lcd" href="#idea" ng-click="passObjectProducto(producto.id)" >{{ producto.nombre }}</a>
-                        </h4>
-                    </li>
+    
+    
+    <div class="col-sm-6 col-lg-6 col-md-6">
+        <div class="thumbnail">
+            
+            <div class="caption disenadorEIdeas">
+                <div class="text-center"> <h3>Diseñadores</h3> </div>
+                <div class="lineYellow"></div>
+                <br>
+                <div ng-repeat="disenador in disenadores track by disenador.id ">
+                    
+                    <h5><a class="detailsNamesSomosDisenadores" href="#disenador" ng-click="passObjectDisenador(disenador.id)" >{{ disenador.nombre }}</a>
+                        </h5>
+                        <br>
+                    
 
 
                 </div>
-            </ul>
-
+            </div>
         </div>
+    </div>
+    
+
+    <div class="col-sm-6 col-lg-6 col-md-6">
+        <div class="thumbnail">
+
+            <div class="caption disenadorEIdeas">
+                <div class="text-center"> <h3>Ideas</h3></div>
+                <div class="lineYellow"></div>
+                <br>
+                <div ng-repeat="producto in productos track by producto.id ">
+                    
+                    <h5><a class="detailsNamesSomosDisenadores" href="#idea" ng-click="passObjectProducto(producto.id)" >{{ producto.nombre }}</a>
+                        </h5>
+                        <br>
+                
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    
+    
     
    
     

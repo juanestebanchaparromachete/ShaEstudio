@@ -1,56 +1,55 @@
-<div ng-controller="mainCtrl" class="row carousel-holder">
-
-    <div class="col-xs-12" style="text-align:center;">
+<div ng-controller="mainCtrl" class="row carousel-holder col-xs-12" style="text-align:center;">
 
 
-        <div uib-carousel active="active" interval="myInterval" class="carousel slide" no-wrap="noWrapSlides">
-            <div uib-slide class="carouselsize" ng-repeat="slide in slides track by slide.id" index="slide.id">
-                <div class="item carouselImage ">
-                    <img class="slide-image " ng-src="{{ slide.image }}" alt="">
-                    <div class="carousel-caption">
-                        <h4>Slide {{ slide.id }}</h4>
-                        <p>{{ slide.text }}</p>
-                    </div>
+
+    <div uib-carousel active="active" interval="myInterval" class="carousel slide maintamano" no-wrap="noWrapSlides">
+        <div uib-slide class="carouselsize" ng-repeat="slide in slides track by slide.id" index="slide.id">
+            <div class="item carouselImage ">
+                <img class="slide-image " ng-src="{{ slide.image }}" alt="">
+                <div class="carousel-caption">
+                    <h4>Slide {{ slide.id }}</h4>
+                    <p>{{ slide.text }}</p>
                 </div>
             </div>
         </div>
     </div>
+    <br>
+    <div class="lineBlack"></div>
+    <br>
+    <div class="">
 
-</div>
+        <div class="col-sm-4 col-lg-4 col-md-4">
+            <div class="thumbnail">
+                <div class="caption">
+                    <h4><a class="lcd" href="#"> Sofisticado</a>
+                        </h4>
+                    <p>algun texo aqui.</p>
+                </div>
 
-<div class="row">
-
-    <div class="col-sm-4 col-lg-4 col-md-4">
-        <div class="thumbnail">
-            <div class="caption">
-                <h4><a class="lcd" href="#"> Sofisticado</a>
-                </h4>
-                <p>algun texo aqui.</p>
             </div>
-            <img src="/images/KALAHARY%203.jpg" alt="">
         </div>
-    </div>
 
-    <div class="col-sm-4 col-lg-4 col-md-4">
-        <div class="thumbnail">
-            <div class="caption">
-                <h4><a class="lcd" href="#">Innovación</a>
-                </h4>
-                <p>algun texto aqui.</p>
+        <div class="col-sm-4 col-lg-4 col-md-4">
+            <div class="thumbnail">
+                <div class="caption">
+                    <h4><a class="lcd" href="#">Innovación</a>
+                        </h4>
+                    <p>algun texto aqui.</p>
+                </div>
+
             </div>
-            <img src="/images/CAJON%20TOCADOR.png" alt="">
         </div>
-    </div>
 
-    <div class="col-sm-4 col-lg-4 col-md-4">
-        <div class="thumbnail">
+        <div class="col-sm-4 col-lg-4 col-md-4">
+            <div class="thumbnail">
 
-            <div class="caption">
-                <h4><a class="lcd" href="#">Mejor precio</a>
-                </h4>
-                <p>algun texto aqui.</p>
+                <div class="caption">
+                    <h4><a class="lcd" href="#">Mejor precio</a>
+                        </h4>
+                    <p>algun texto aqui.</p>
+                </div>
+
             </div>
-            <img src="/images/VETRO%20FLOTANTE.png" alt="">
         </div>
     </div>
 </div>
